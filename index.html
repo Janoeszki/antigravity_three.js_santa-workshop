@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎅 Noordpool Kerstscène</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.169.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.169.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <canvas id="scene-canvas"></canvas>
+
+  <!-- Muziekbediening -->
+  <button id="music-toggle-btn" class="music-btn" aria-label="Kerstmuziek in- of uitschakelen" title="Kerstmuziek uitzetten (M)">
+    <span class="music-btn-icon" id="music-btn-icon">🔊</span>
+    <span class="music-btn-label" id="music-btn-label">Muziek: Aan</span>
+    <span class="music-btn-eq active" id="music-btn-eq" aria-hidden="true">
+      <span class="bar bar-1"></span>
+      <span class="bar bar-2"></span>
+      <span class="bar bar-3"></span>
+    </span>
+  </button>
+
+  <div id="info-overlay">🖱️ Sleep om rond te kijken · Klik op het cadeau · Bekijk het elfendorpje in de verte! ✨</div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
