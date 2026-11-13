@@ -90,25 +90,6 @@ Een sfeervolle, interactieve 3D-scène op de Noordpool, gebouwd met **Three.js**
 
 ---
 
-## 🚀 Hoe te openen / starten
-
-Omdat browsers om veiligheidsredenen ES Modules blokkeren bij het direct openen via `file://`, start je eenvoudig een lokale mini-server:
-
-### Optie 1: Met Node.js (Aanbevolen)
-Open een terminal in deze map en voer uit:
-```bash
-node server.js
-```
-Open vervolgens in je browser:
-👉 **[http://localhost:3000](http://localhost:3000)**
-
-*(Of gebruik `npm start`)*
-
-### Optie 2: Met VS Code Live Server
-Klik rechtsonder in VS Code op **"Go Live"** op `index.html`.
-
----
-
 ## 📂 Projectstructuur
 
 ```
