@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Interactieve Three.js cartoon Noordpool kerstscène",
   "type": "module",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "scripts": {},
   "keywords": [
     "threejs",
     "webgl",
